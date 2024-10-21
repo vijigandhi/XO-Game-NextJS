@@ -11,7 +11,7 @@ export default function XOGame() {
   const [winningCells, setWinningCells] = useState([]); 
   const searchParams = useSearchParams(); //retrieves the current search parameters from the URL-query parameters
 
-  // Retrieve player names from query parameters
+  // Retrieve player names from query parameters 
   const player1 = searchParams.get('player1');
   const player2 = searchParams.get('player2');
 
